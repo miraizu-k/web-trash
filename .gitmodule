@@ -1,0 +1,3 @@
+[submodule "libs/readdir"]
+    path = libs/readdir
+    url = https://romer@github.com/romer/readdir.git
