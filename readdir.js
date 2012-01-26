@@ -50,7 +50,7 @@ var fs = require('fs'),
         })((function (path) {
             // path normalized
             // TODO
-            path = Path.normalize(path);
+            path = Path.resolve(Path.normalize(path));
             if (Path.existsSync(path) === false) {
                 return null;
             }
