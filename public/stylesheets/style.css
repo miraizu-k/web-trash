@@ -16,7 +16,8 @@ body {
 }
 
 #target h2 {
-    position : absolute;
-    top : 50%;
+    font-size : 3em;
+    position: absolute;
+    top: 50%;
     left: 50%;
 }
